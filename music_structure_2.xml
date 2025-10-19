@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MusicService>
+    <users>
+        <user>
+            <username>string</username>
+            <email>string</email>
+            <playlists>array of playlist titles</playlists>
+            <liked_tracks>array of track titles</liked_tracks>
+            <fav_artists>array of artist usernames</fav_artists>
+            <history>
+                <user>string (username)</user>
+                <listened_track>array of track titles</listened_track>
+                <last_track>array of track titles</last_track>
+            </history>
+        </user>
+    </users>
+    
+    <artists>
+        <artist>
+            <username>string</username>
+            <bio>string</bio>
+        </artist>
+    </artists>
+    
+    <albums>
+        <album>
+            <tracks>array of track titles</tracks>
+            <title>string</title>
+            <year>number</year>
+            <author>string (artist username)</author>
+        </album>
+    </albums>
+    
+    <tracks>
+        <track>
+            <title>string</title>
+            <duration>number</duration>
+            <author>string (artist username)</author>
+            <genre>string</genre>
+            <rating>number or null</rating>
+        </track>
+    </tracks>
+    
+    <playlists>
+        <playlist>
+            <tracks>array of track titles</tracks>
+            <title>string</title>
+            <author>string (user username)</author>
+            <is_public>boolean</is_public>
+        </playlist>
+    </playlists>
+    
+    <genres>
+        <genre>
+            <type_genre>string</type_genre>
+        </genre>
+    </genres>
+    
+    <lyrics>
+        <lyric>
+            <text>string</text>
+            <track>string (track title)</track>
+        </lyric>
+    </lyrics>
+    
+    <downloads>
+        <download>
+            <user>string (user username)</user>
+            <track>string (track title)</track>
+            <date>datetime string</date>
+        </download>
+    </downloads>
+    
+    <ratings>
+        <rating>
+            <user>string (user username)</user>
+            <track>string (track title)</track>
+            <value>number</value>
+        </rating>
+    </ratings>
+</MusicService>

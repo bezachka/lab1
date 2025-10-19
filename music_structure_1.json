@@ -1,0 +1,103 @@
+{
+  "music_service": {
+    "users": [
+      {
+        "username": "beza",
+        "email": "lol@gmail.com",
+        "playlists": [
+          {
+            "title": "playlist1",
+            "is_public": true,
+            "tracks": [
+              {
+                "title": "Track1",
+                "duration": 134,
+                "lyrics": {
+                  "lyrics": "Субтитры не указаны"
+                },
+                "genre": {
+                  "type_genre": "Жанр не указан"
+                },
+                "rating": {
+                  "value": 5
+                }
+              },
+              {
+                "title": "Track2",
+                "duration": 72,
+                "lyrics": {
+                  "lyrics": "Субтитры не указаны"
+                },
+                "genre": {
+                  "type_genre": "Жанр не указан"
+                },
+                "rating": {
+                  "value": 5
+                }
+              },
+              {
+                "title": "Track3",
+                "duration": 102,
+                "lyrics": {
+                  "lyrics": "Субтитры не указаны"
+                },
+                "genre": {
+                  "type_genre": "Жанр не указан"
+                },
+                "rating": {
+                  "value": 5
+                }
+              },
+              {
+                "title": "Track4",
+                "duration": 252,
+                "lyrics": {
+                  "lyrics": "Субтитры не указаны"
+                },
+                "genre": {
+                  "type_genre": "Жанр не указан"
+                },
+                "rating": {
+                  "value": 5
+                }
+              }
+            ]
+          }
+        ],
+        "liked_tracks": [
+          {
+            "title": "Track5",
+            "duration": 230,
+            "lyrics": {
+              "lyrics": "Субтитры не указаны"
+            },
+            "genre": {
+              "type_genre": "Жанр не указан"
+            },
+            "rating": {
+              "value": 4
+            }
+          }
+        ],
+        "fav_artists": [
+          {
+            "username": "Artist3",
+            "bio": "bio3"
+          }
+        ],
+        "device": {
+          "name": "PC",
+          "os": "Windows 11"
+        }
+      }
+    ],
+    "artists": [
+      {
+        "username": "Artist1",
+        "bio": "bio1",
+        "albums": [],
+        "tracks": []
+      }
+    ]
+  }
+}
