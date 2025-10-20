@@ -1,0 +1,75 @@
+{
+  "music_service": {
+    "users": [
+      {
+        "id": "76d8313f",
+        "username": "john_doe",
+        "email": "john@example.com",
+        "device_id": "be90be8e"
+      }
+    ],
+    "artists": [
+      {
+        "id": "1486f5cb",
+        "username": "Eminem",
+        "bio": "Rapper"
+      },
+      {
+        "id": "f8dd0591",
+        "username": "LinkinPark",
+        "bio": "Rock band"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "faebc38e",
+        "title": "Lose Yourself",
+        "duration": 326,
+        "artist_id": "1486f5cb"
+      },
+      {
+        "id": "a10d6858",
+        "title": "Numb",
+        "duration": 210,
+        "artist_id": "f8dd0591"
+      }
+    ],
+    "albums": [
+      {
+        "id": "ff3526b6",
+        "artist_id": "1486f5cb",
+        "title": "Best Hits",
+        "year": 2020,
+        "track_ids": [
+          "faebc38e",
+          "a10d6858"
+        ]
+      }
+    ],
+    "playlists": [
+      {
+        "id": "de5c10c3",
+        "author_id": "76d8313f",
+        "title": "My Playlist",
+        "is_public": true,
+        "track_ids": [
+          "faebc38e"
+        ]
+      }
+    ],
+    "lyrics": [
+      {
+        "id": "2a4608ac",
+        "track_id": "faebc38e",
+        "lyrics": "Look, if you had one shot..."
+      }
+    ],
+    "genres": [
+      {
+        "id": "83aeced3",
+        "type_genre": "Rap",
+        "track_id": "faebc38e"
+      }
+    ]
+  }
+}
