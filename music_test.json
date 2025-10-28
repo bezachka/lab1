@@ -2,73 +2,283 @@
   "music_service": {
     "users": [
       {
-        "id": "76d8313f",
+        "id": "a53d24b1",
         "username": "john_doe",
         "email": "john@example.com",
-        "device_id": "be90be8e"
+        "device_id": "2d3951ae"
+      },
+      {
+        "id": "c795888c",
+        "username": "john_doe",
+        "email": "john@example.com",
+        "device_id": "e471a5b4"
+      },
+      {
+        "id": "41e24466",
+        "username": "john_doe",
+        "email": "john@example.com",
+        "device_id": "bc68be91"
+      },
+      {
+        "id": "345c875b",
+        "username": "john_doe",
+        "email": "john@example.com",
+        "device_id": "b69518d0"
       }
     ],
     "artists": [
       {
-        "id": "1486f5cb",
+        "id": "1fe22629",
         "username": "Eminem",
         "bio": "Rapper"
       },
       {
-        "id": "f8dd0591",
+        "id": "d74b2673",
+        "username": "LinkinPark",
+        "bio": "Rock band"
+      },
+      {
+        "id": "5b1bceff",
+        "username": "Eminem",
+        "bio": "Rapper"
+      },
+      {
+        "id": "8882cd28",
+        "username": "LinkinPark",
+        "bio": "Rock band"
+      },
+      {
+        "id": "670b9b8c",
+        "username": "Eminem",
+        "bio": "Rapper"
+      },
+      {
+        "id": "4c7c17ba",
+        "username": "LinkinPark",
+        "bio": "Rock band"
+      },
+      {
+        "id": "bc67017b",
+        "username": "Eminem",
+        "bio": "Rapper"
+      },
+      {
+        "id": "8f143586",
         "username": "LinkinPark",
         "bio": "Rock band"
       }
     ],
     "tracks": [
       {
-        "id": "faebc38e",
+        "id": "6bd1f972",
         "title": "Lose Yourself",
         "duration": 326,
-        "artist_id": "1486f5cb"
+        "artist_id": "1fe22629"
       },
       {
-        "id": "a10d6858",
+        "id": "56151768",
         "title": "Numb",
         "duration": 210,
-        "artist_id": "f8dd0591"
+        "artist_id": "d74b2673"
+      },
+      {
+        "id": "c7100494",
+        "title": "Lose Yourself",
+        "duration": 326,
+        "artist_id": "5b1bceff"
+      },
+      {
+        "id": "55fd2e61",
+        "title": "Numb",
+        "duration": 210,
+        "artist_id": "8882cd28"
+      },
+      {
+        "id": "30c253a3",
+        "title": "Lose Yourself",
+        "duration": 326,
+        "artist_id": "670b9b8c"
+      },
+      {
+        "id": "f1df9fbc",
+        "title": "Numb",
+        "duration": 210,
+        "artist_id": "4c7c17ba"
+      },
+      {
+        "id": "b3ee7c25",
+        "title": "Lose Yourself",
+        "duration": 326,
+        "artist_id": "bc67017b"
+      },
+      {
+        "id": "67f057a3",
+        "title": "Numb",
+        "duration": 210,
+        "artist_id": "8f143586"
       }
     ],
     "albums": [
       {
-        "id": "ff3526b6",
-        "artist_id": "1486f5cb",
+        "id": "256634a1",
+        "artist_id": "1fe22629",
         "title": "Best Hits",
         "year": 2020,
         "track_ids": [
-          "faebc38e",
-          "a10d6858"
+          "6bd1f972",
+          "56151768"
+        ]
+      },
+      {
+        "id": "cf1a1eb8",
+        "artist_id": "5b1bceff",
+        "title": "Best Hits",
+        "year": 2020,
+        "track_ids": [
+          "c7100494",
+          "55fd2e61"
+        ]
+      },
+      {
+        "id": "f6daba6d",
+        "artist_id": "670b9b8c",
+        "title": "Best Hits",
+        "year": 2020,
+        "track_ids": [
+          "30c253a3",
+          "f1df9fbc"
+        ]
+      },
+      {
+        "id": "547782b9",
+        "artist_id": "bc67017b",
+        "title": "Best Hits",
+        "year": 2020,
+        "track_ids": [
+          "b3ee7c25",
+          "67f057a3"
         ]
       }
     ],
     "playlists": [
       {
-        "id": "de5c10c3",
-        "author_id": "76d8313f",
+        "id": "651436b4",
+        "author_id": "a53d24b1",
         "title": "My Playlist",
         "is_public": true,
         "track_ids": [
-          "faebc38e"
+          "6bd1f972"
+        ]
+      },
+      {
+        "id": "3af527c6",
+        "author_id": "c795888c",
+        "title": "My Playlist",
+        "is_public": true,
+        "track_ids": [
+          "c7100494"
+        ]
+      },
+      {
+        "id": "d42faeb1",
+        "author_id": "41e24466",
+        "title": "My Playlist",
+        "is_public": true,
+        "track_ids": [
+          "30c253a3"
+        ]
+      },
+      {
+        "id": "15ca77e0",
+        "author_id": "345c875b",
+        "title": "My Playlist",
+        "is_public": true,
+        "track_ids": [
+          "b3ee7c25"
         ]
       }
     ],
     "lyrics": [
       {
-        "id": "2a4608ac",
-        "track_id": "faebc38e",
+        "id": "008d28b4",
+        "track_id": "6bd1f972",
+        "lyrics": "Look, if you had one shot..."
+      },
+      {
+        "id": "fde6a371",
+        "track_id": "c7100494",
+        "lyrics": "Look, if you had one shot..."
+      },
+      {
+        "id": "d60e03ec",
+        "track_id": "30c253a3",
+        "lyrics": "Look, if you had one shot..."
+      },
+      {
+        "id": "71fcbb01",
+        "track_id": "b3ee7c25",
         "lyrics": "Look, if you had one shot..."
       }
     ],
     "genres": [
       {
-        "id": "83aeced3",
+        "id": "a188a1a6",
         "type_genre": "Rap",
-        "track_id": "faebc38e"
+        "track_id": "6bd1f972"
+      },
+      {
+        "id": "988be7a9",
+        "type_genre": "Rap",
+        "track_id": "c7100494"
+      },
+      {
+        "id": "e649539f",
+        "type_genre": "Rap",
+        "track_id": "30c253a3"
+      },
+      {
+        "id": "8c77b7db",
+        "type_genre": "Rap",
+        "track_id": "b3ee7c25"
+      }
+    ],
+    "devices": [
+      {
+        "id": "2d3951ae",
+        "name": "iPhone",
+        "os": "iOS"
+      },
+      {
+        "id": "e471a5b4",
+        "name": "iPhone",
+        "os": "iOS"
+      },
+      {
+        "id": "bc68be91",
+        "name": "iPhone",
+        "os": "iOS"
+      },
+      {
+        "id": "b69518d0",
+        "name": "iPhone",
+        "os": "iOS"
+      }
+    ],
+    "tags": [
+      {
+        "id": "93ac1d8c",
+        "name": "Something",
+        "track_id": "b3ee7c25"
+      }
+    ],
+    "queue": [
+      {
+        "id": "b0350e69",
+        "user_id": "345c875b",
+        "track_ids": [
+          "b3ee7c25",
+          "67f057a3"
+        ]
       }
     ]
   }
