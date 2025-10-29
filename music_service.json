@@ -2,102 +2,81 @@
   "music_service": {
     "users": [
       {
-        "id": "50b90e84",
+        "id": "a29815ac",
         "username": "Илья",
-        "email": "вафыа",
-        "device_id": "f5872012"
-      },
-      {
-        "id": "f90585e0",
-        "username": "Илья",
-        "email": "дыапфва",
-        "device_id": "8e0faa9a"
-      }
-    ],
-    "artists": [
-      {
-        "id": "6911e9f8",
-        "username": "Артист1",
-        "bio": "био"
+        "email": "mail@gmail.com",
+        "device_id": "34d500e2"
       }
     ],
     "tracks": [
       {
-        "id": "d90a7f4b",
-        "title": "трек1",
-        "duration": 230,
-        "artist_id": "6911e9f8"
+        "id": "32b96029",
+        "title": "Трек1",
+        "duration": 140,
+        "artist_id": "e5d96c2a"
+      },
+      {
+        "id": "d0669924",
+        "title": "Трек2",
+        "duration": 145,
+        "artist_id": "45217a8a"
       }
     ],
     "albums": [
       {
-        "id": "18b47f1c",
-        "artist_id": "6911e9f8",
-        "title": "альбом",
-        "year": 1970,
-        "track_ids": [
-          "d90a7f4b"
-        ]
-      }
-    ],
-    "playlists": [
-      {
-        "id": "7d252f10",
-        "author_id": "50b90e84",
-        "title": "плейлист",
-        "is_public": true,
-        "track_ids": [
-          "d90a7f4b"
-        ]
-      },
-      {
-        "id": "07457234",
-        "author_id": "f90585e0",
-        "title": "плейлист",
-        "is_public": true,
+        "id": "91ac0d21",
+        "artist_id": "45217a8a",
+        "title": "Альбом1",
+        "year": 2022,
         "track_ids": []
       }
     ],
     "lyrics": [
       {
-        "id": "049b2340",
-        "track_id": "d90a7f4b",
-        "lyrics": "Текст"
+        "id": "186f237c",
+        "track_id": "d0669924",
+        "lyrics": "Текст к песне"
       }
     ],
-    "genres": [
-      {
-        "id": "2dee3a57",
-        "type_genre": "Рок",
-        "track_id": "d90a7f4b"
-      }
-    ],
+    "genres": [],
     "devices": [
       {
-        "id": "f5872012",
+        "id": "34d500e2",
         "name": "LAPTOP",
         "os": "Windows"
-      },
-      {
-        "id": "8e0faa9a",
-        "name": "фавфа",
-        "os": "выаа"
       }
     ],
-    "tags": [
-      {
-        "id": "4e211e30",
-        "name": "Тэг",
-        "track_id": "d90a7f4b"
-      }
-    ],
-    "queue": [],
+    "tags": [],
     "queues": [
       {
-        "id": "8bc11dc5",
-        "user_id": "f90585e0",
+        "id": "49585647",
+        "user_id": "a29815ac",
         "track_ids": [
-          "d90a7f4b"
+          "32b96029",
+          "d0669924"
+        ]
+      }
+    ],
+    "artists": [
+      {
+        "id": "e5d96c2a",
+        "username": "Артист1",
+        "bio": "Биография1"
+      },
+      {
+        "id": "45217a8a",
+        "username": "Артист2",
+        "bio": "Биография2"
+      }
+    ],
+    "playlists": [
+      {
+        "id": "b33dc442",
+        "author_id": "a29815ac",
+        "title": "Плейлист1",
+        "is_public": true,
+        "track_ids": [
+          "d0669924"
         ]
       }
     ]

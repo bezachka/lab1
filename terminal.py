@@ -1,31 +1,43 @@
 from service import *
 from moduls import *
+from exceptions import TerminalException, FileProcessingError, UserInputError
 
 class Terminal():
     def __init__(self):
         pass
 
     def load(filename, type_data):
+
         if type_data == "json":
             return JsonServiceSerializer.from_json(filename)
         elif type_data == "xml":
             return LxmlServiceSerializer.from_lxml(filename)
+        else:
+            raise FileProcessingError(f"Неизвестный тип данных: {type_data}")
+
         
     def save(filename, type_data, service: Service):
+
         if type_data == "json":
             JsonServiceSerializer.to_json(service, filename)
         elif type_data == "xml":
             LxmlServiceSerializer.to_lxml(service, filename)
+        else:
+            raise FileProcessingError(f"Неизвестный тип данных: {type_data}")
 
+            
     def create_user():
-        username = input("Имя пользователя: ")
-        email = input("Email: ")
-        dev_name = input("Имя устройства: ")
-        dev_os = input("ОС: ")
-        device = Device(dev_name, dev_os)
-        user = User(username=username, email=email, device=device)
+            username = input("Имя пользователя: ")
+            email = input("Email: ")
+            if "@" not in email:
+                raise UserInputError("Почта не валидная")
+            dev_name = input("Имя устройства: ")
+            dev_os = input("ОС: ")
+            device = Device(dev_name, dev_os)
+            user = User(username=username, email=email, device=device)
 
-        return [user, device]
+            return [user, device]
+        
 
 
 
@@ -43,8 +55,11 @@ class Terminal():
 
             try:
                 choice = int(input("Выберите действие [1-12]: "))
-            except:
-                print("Некорректный ввод.")
+            except ValueError:
+                print("Введите число от 1 до 12")
+                continue
+            except Exception:
+                print("Некорректный ввод")
                 continue
 
             #Пользователи
@@ -58,7 +73,11 @@ class Terminal():
                 
                 ans = input("\nСоздать нового пользователя? [да/нет]: ")
                 if ans.lower() == "да":
-                    data_user = Terminal.create_user()
+                    try:
+                        data_user = Terminal.create_user()
+                    except Exception as e:
+                        print(f"Произошла ошибка: {e}")
+                        continue
                     Terminal.save(filename, type_data, Service(users=[data_user[0]], devices=[data_user[1]]))
                     print(f"Пользователь добавлен.")
 
@@ -270,7 +289,11 @@ class Terminal():
                 #Создание альбома
                 elif ans == "2":
                     title = input("Введите название альбома: ").strip()
-                    year = int(input("Введите год выпуска: ").strip())
+                    try:
+                        year = int(input("Введите год выпуска: ").strip())
+                    except ValueError as v:
+                        print(f"Произошла ошибка: {v}\nВ следующий раз введите число")
+                        continue
 
                     #выбор артиста
                     if service.artists:
@@ -430,12 +453,13 @@ class Terminal():
 
             elif choice == 11:
                 filename = input("Введите имя файла: ")
-                if filename.split(".")[1] == "json":
-                    type_data = "json"
-                else:
-                    type_data = "xml"
-
-                service = Terminal.load(filename, type_data)
+                type_data = filename.split(".")[1]
+                try:
+                    service = Terminal.load(filename, type_data)
+                except Exception as e:
+                    filename="music_test.json"
+                    type_data="json"
+                    print(f"Произошла ошибка: {e}")
 
             elif choice == 12:
                 break
