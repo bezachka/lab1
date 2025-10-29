@@ -1,84 +1,27 @@
 {
   "music_service": {
-    "users": [
-      {
-        "id": "a29815ac",
-        "username": "Илья",
-        "email": "mail@gmail.com",
-        "device_id": "34d500e2"
-      }
-    ],
+    "users": [],
     "tracks": [
       {
-        "id": "32b96029",
-        "title": "Трек1",
-        "duration": 140,
-        "artist_id": "e5d96c2a"
-      },
-      {
-        "id": "d0669924",
-        "title": "Трек2",
-        "duration": 145,
-        "artist_id": "45217a8a"
+        "id": "aad1c820",
+        "title": "Трек",
+        "duration": 240,
+        "artist_id": "6a2f6d69"
       }
     ],
-    "albums": [
-      {
-        "id": "91ac0d21",
-        "artist_id": "45217a8a",
-        "title": "Альбом1",
-        "year": 2022,
-        "track_ids": []
-      }
-    ],
-    "lyrics": [
-      {
-        "id": "186f237c",
-        "track_id": "d0669924",
-        "lyrics": "Текст к песне"
-      }
-    ],
+    "albums": [],
+    "lyrics": [],
     "genres": [],
-    "devices": [
-      {
-        "id": "34d500e2",
-        "name": "LAPTOP",
-        "os": "Windows"
-      }
-    ],
+    "devices": [],
     "tags": [],
-    "queues": [
-      {
-        "id": "49585647",
-        "user_id": "a29815ac",
-        "track_ids": [
-          "32b96029",
-          "d0669924"
-        ]
-      }
-    ],
+    "queues": [],
     "artists": [
       {
-        "id": "e5d96c2a",
+        "id": "6a2f6d69",
         "username": "Артист1",
-        "bio": "Биография1"
-      },
-      {
-        "id": "45217a8a",
-        "username": "Артист2",
-        "bio": "Биография2"
+        "bio": "биограф"
       }
     ],
-    "playlists": [
-      {
-        "id": "b33dc442",
-        "author_id": "a29815ac",
-        "title": "Плейлист1",
-        "is_public": true,
-        "track_ids": [
-          "d0669924"
-        ]
-      }
-    ]
+    "playlists": []
   }
 }

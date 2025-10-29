@@ -2,97 +2,93 @@
 <MusicService>
   <users>
     <user>
-      <id>c6d8e741</id>
-      <username>john_doe</username>
-      <email>john@example.com</email>
-      <device_id>de811f00</device_id>
+      <id></id>
+      <username></username>
+      <email></email>
+      <device_id></device_id>
     </user>
-  <user><id>1b1a0c8c</id><username>Илья</username><email>lol@mail.ru</email><device_id>119e7776</device_id></user><user><id>c10a8ad1</id><username>лох</username><email>ыапывпп</email><device_id>8bed35a5</device_id></user></users>
+  </users>
+
   <artists>
     <artist>
-      <id>31982f13</id>
-      <username>Eminem</username>
-      <bio>Rapper</bio>
+      <id></id>
+      <username></username>
+      <bio></bio>
     </artist>
-    <artist>
-      <id>d173b55b</id>
-      <username>LinkinPark</username>
-      <bio>Rock band</bio>
-    </artist>
-  <artist><id>d173b55b</id><username>LinkinPark</username><bio>Rock band</bio></artist><artist><id>35027b68</id><username>Artist</username><bio>Fctor</bio></artist><artist><id>31982f13</id><username>Eminem</username><bio>Rapper</bio></artist></artists>
+  </artists>
+
   <tracks>
     <track>
-      <id>049be22f</id>
-      <title>Lose Yourself</title>
-      <duration>326</duration>
-      <artist_id>31982f13</artist_id>
+      <id></id>
+      <title></title>
+      <duration></duration>
+      <artist_id></artist_id>
     </track>
-    <track>
-      <id>b4968706</id>
-      <title>Numb</title>
-      <duration>210</duration>
-      <artist_id>d173b55b</artist_id>
-    </track>
-  <track><id>8f20e86c</id><title>Трек1</title><duration>200</duration><artist_id>31982f13</artist_id></track><track><id>36a96d40</id><title>Трек2</title><duration>200</duration><artist_id>d173b55b</artist_id></track><track><id>0a05f4fa</id><title>Трек3</title><duration>230</duration><artist_id>31982f13</artist_id></track></tracks>
+  </tracks>
+
   <albums>
     <album>
-      <id>053b351a</id>
-      <title>Best Hits</title>
-      <year>2020</year>
-      <artist_id>31982f13</artist_id>
+      <id></id>
+      <title></title>
+      <year></year>
+      <artist_id></artist_id>
       <track_ids>
-        <track_id>049be22f</track_id>
-        <track_id>b4968706</track_id>
+        <track_id></track_id>
       </track_ids>
     </album>
-  <album><id>1acc0dec</id><title>hits</title><year>2022</year><artist_id>d173b55b</artist_id></album><album><id>6379c5ea</id><title>апы</title><year>2222</year><artist_id>31982f13</artist_id></album><album><id>aad7feba</id><title>выапы</title><year>3432</year><artist_id>31982f13</artist_id></album><album><id>527b976c</id><title>альбом</title><year>2020</year><artist_id>d173b55b</artist_id></album></albums>
+  </albums>
+
   <playlists>
     <playlist>
-      <id>cd3dec6e</id>
-      <title>My Playlist</title>
-      <is_public>True</is_public>
-      <author_id>c6d8e741</author_id>
+      <id></id>
+      <title></title>
+      <is_public></is_public>
+      <author_id></author_id>
       <track_ids>
-        <track_id>049be22f</track_id>
+        <track_id></track_id>
       </track_ids>
     </playlist>
-  <playlist><id>a4d17a6d</id><title>gktqkbcn</title><is_public>True</is_public><author_id>1b1a0c8c</author_id><track_ids><track_id>b4968706</track_id></track_ids></playlist><playlist><id>2de8b205</id><title>444</title><is_public>True</is_public><author_id>c10a8ad1</author_id><track_ids><track_id>b4968706</track_id></track_ids></playlist><playlist><id>5a13b51e</id><title>4444</title><is_public>False</is_public><author_id>c6d8e741</author_id><track_ids><track_id>8f20e86c</track_id></track_ids></playlist></playlists>
+  </playlists>
+
   <genres>
     <genre>
-      <id>6af74303</id>
-      <type_genre>Rap</type_genre>
-      <track_id>049be22f</track_id>
+      <id></id>
+      <type_genre></type_genre>
+      <track_id></track_id>
     </genre>
   </genres>
+
   <lyrics>
     <lyric>
-      <id>c7e40579</id>
-      <track_id>049be22f</track_id>
-      <lyrics>Look, if you had one shot...</lyrics>
+      <id></id>
+      <track_id></track_id>
+      <lyrics></lyrics>
     </lyric>
-  <lyric><id>c85e2b14</id><track_id>b4968706</track_id><lyrics>Текст...</lyrics></lyric></lyrics>
+  </lyrics>
+
   <devices>
     <device>
-      <id>de811f00</id>
-      <name>iPhone</name>
-      <os>iOS</os>
+      <id></id>
+      <name></name>
+      <os></os>
     </device>
-  <device><id>119e7776</id><name>LAPTOP</name><os>Windows</os></device><device><id>8bed35a5</id><name>пып</name><os>ывп</os></device></devices>
+  </devices>
+
   <tags>
     <tag>
-      <id>1d479e91</id>
-      <name>Something</name>
-      <track_id>049be22f</track_id>
+      <id></id>
+      <name></name>
+      <track_id></track_id>
     </tag>
   </tags>
+
   <queues>
     <queue>
-      <id>11dda68e</id>
-      <user_id>c6d8e741</user_id>
+      <id></id>
+      <user_id></user_id>
       <track_ids>
-        <track_id>049be22f</track_id>
-        <track_id>b4968706</track_id>
+        <track_id></track_id>
       </track_ids>
     </queue>
-  <queue><id>fe9b15fd</id><user_id>c6d8e741</user_id><track_ids><track_id>049be22f</track_id></track_ids></queue><queue><id>1b434497</id><user_id>1b1a0c8c</user_id><track_ids><track_id>36a96d40</track_id></track_ids></queue></queues>
+  </queues>
 </MusicService>
